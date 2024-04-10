@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  oui
+</head>
+
+
+<body>
+  <form method="post" action="/bibliotheque/traitementupdate/{{id}}">
+  {% csrf_token %}
+  {{ form.as_ul }}
+  <input type="submit" value="envoyer␣les␣données"\>
+  </form>
+
+</body>
+</html>
